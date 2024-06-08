@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: echo 'Preparing environment'
+    command: |
+    echo 'Activating conda environment'
+    conda activate dcgan_env
+    echo 'Environment is ready!'

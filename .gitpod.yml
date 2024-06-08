@@ -4,6 +4,6 @@ image:
 tasks:
   - init: echo 'Preparing environment'
     command: |
-    echo 'Activating conda environment'
-    conda activate dcgan_env
-    echo 'Environment is ready!'
+      echo 'Activating conda environment'
+      source /home/gitpod/miniconda/bin/activate dcgan_env
+      echo 'Environment is ready!'
